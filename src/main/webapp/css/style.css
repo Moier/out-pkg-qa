@@ -1,0 +1,225 @@
+.body {
+	width: 100%;
+	font-size: 14px;
+	font-family: 'microsoft yahei';
+}
+
+.header {
+	width: 100%;
+	background-color: #42484d;
+	height: 60px;
+	line-height: 60px;
+}
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	height: 100%;
+}
+.header .wrapper .logo {
+	color: #fff;
+	font-size: 22px;
+	font-family: 'microsoft yahei';
+	font-weight: bold;
+}
+.header .wrapper .logo img{
+	width: 45px; height: 45px;
+	margin: 0 10px 0 0 ;
+}
+
+.content {
+	width: 100%;
+}
+
+.letter {
+	height: 530px;
+	color: #fff;
+	background: #4baad3 url(img/back-letter.png) no-repeat center 110px;
+}
+
+.letter .recipient {
+	font-family: 'microsoft yahei';
+	font-size: 16px;
+	padding: 20px 20px 10px 20px;
+}
+
+.letter p.word {
+	padding: 20px;
+	font-family: 'microsoft yahei';	
+	line-height: 28px;
+	text-indent: 28px;
+	font-size: 14px;
+}
+
+.significant {
+	height: 780px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #ddd;
+}
+
+.significant .left {
+	float: left;
+	width: 540px;
+	height: 100%;
+	padding-top: 40px;
+}
+.significant .left p.title{
+	color: #26ae90;
+	font-family: 'microsoft yahei';
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.significant .left p.text{
+	color: #383838;
+	font-family: 'microsoft yahei';
+	font-size: 12px;
+	line-height: 26px;
+	width: 100%;
+	text-indent: 26px;
+}
+hr {
+	border-bottom: 1px solid #d4d4d4;
+	margin: 30px 0;
+}
+.significant .right {
+	float: right;
+	width: 550px;
+	height: 100%;
+	background: url(img/map.png) no-repeat center center;
+}
+
+
+.service {	
+	height: 466px;
+	background-color: #3E99C8;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0;
+}
+
+.service .left {
+	background: url(img/service-back.jpg) no-repeat 0 0;
+	float: left;
+	width: 620px;
+	height: 100%;
+	padding-top: 40px;
+}
+
+.service .right {
+	float: right;
+	width: 470px;
+	height: 100%;
+	padding-top: 40px;
+	color: #fff;
+}
+.service .right p.title{
+	color: #fff;
+	font-family: 'microsoft yahei';
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.service .right p.text{
+	color: #fff;
+	font-family: 'microsoft yahei';
+	font-size: 14px;
+	margin-top: 10px;
+	line-height: 22px;
+}
+
+.question {	
+	/*height: 466px;*/
+	background-color: #fff;
+	padding: 30px 0;
+}
+.question div.title {
+	width: 500px;
+	padding: 25px;
+	clear: both;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	margin-bottom: 25px;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;	
+}
+.question div.green {
+	background-color: #26ae90;
+}
+.question div.orange {
+	background-color: #ff675b;
+}
+.question div.title:before {
+	border-style: solid;
+	border-width: 14px 13px 0px;
+	content: "";
+	height: 0;
+	left: 14px;
+	position: absolute;
+	bottom: -13px;
+	width: 0;
+}
+.question div.green:before {
+	border-color: #26ae90 transparent transparent transparent;
+}
+.question div.orange:before {
+	border-color: #ff675b transparent transparent transparent;
+}
+.question .area {
+	width: 100%;
+	min-height: 500px;
+	background-color: #f9f9f9;
+	padding: 20px;
+}
+.question .area p.ques {
+	width: 100%;
+	color: #333;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	margin-top: 30px;
+}
+.question .area .input-answer {
+	width: 98%;
+	border: 1px solid #e6e5e0;
+	outline: none;
+	padding: 8px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+}
+.question .area .input-area-answer {
+	width: 98%;
+	border: 1px solid #e6e5e0;
+	outline: none;
+	padding: 8px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	max-width: 98%;
+	min-width: 98%;
+}
+
+.question .sure {
+	width: 100%;
+	text-align: right;
+}
+.question .sure button{
+	width: 150px;
+	margin-right: 100px;
+	font-family: 'microsoft yahei';
+}
+
+.footer {
+	margin-top: 50px;
+	background-color: #42484d;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: 'microsoft yahei';
+	font-size: 16px;
+	color: #fff;
+}

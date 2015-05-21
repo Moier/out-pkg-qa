@@ -12,11 +12,10 @@ public class Question implements Serializable{
 	private int id;
 	private String title;
 	private String desc;
-	// 1：问答题；2，选择题
+	// 1锛氶棶绛旈锛�锛岄�鎷╅
 	private int type;
 	private String[] options;
-	// 1：删除；2：正常
-	private int flag;
+	// 1锛氬垹闄わ紱2锛氭甯�	private int flag;
 	
 	
 	public int getId() {
@@ -43,12 +42,7 @@ public class Question implements Serializable{
 	public void setOptions(String[] options) {
 		this.options = options;
 	}
-	public int getFlag() {
-		return flag;
-	}
-	public void setFlag(int flag) {
-		this.flag = flag;
-	}
+	
 	public String getDesc() {
 		return desc;
 	}
