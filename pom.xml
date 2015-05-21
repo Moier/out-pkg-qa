@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.moier.mvc</groupId>
-  <artifactId>spr-mvc</artifactId>
+  <groupId>com.moier.out</groupId>
+  <artifactId>out-pkg-qa</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>spr-mvc Maven Webapp</name>
@@ -74,7 +74,7 @@
 	        	<artifactId>maven-war-plugin</artifactId>
 	        	<version>2.4</version>
 	        	<configuration>
-	        		<webappDirectory>D:\tomcat_zjs\apache-tomcat-6.0.35\webapps\spr-mvc</webappDirectory>
+	        		<webappDirectory>D:\tomcat_zjs\apache-tomcat-6.0.35\webapps\out-pkg-qa</webappDirectory>
 	        	</configuration>
       		</plugin>
 		
