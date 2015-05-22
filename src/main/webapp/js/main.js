@@ -56,3 +56,13 @@ $(function(){
 		setTimeout(function(){$(document).one('keydown',k)},1000);
 	}
 });
+
+$("#submit").click(function(){
+	var txt_question_1 = $("#txt_question_1").val();
+	var txt_question_2 = $("#txt_question_2").val();
+	var txt_question_3 = $("#txt_question_3").val();
+	var txt_question_4 = $("#txt_question_4").val();
+	var txt_question_5 = $("#txt_question_5").val();
+	var txt_question_6 = $("#txt_question_6").val();
+
+});
