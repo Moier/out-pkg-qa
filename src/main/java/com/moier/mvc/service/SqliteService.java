@@ -1,5 +1,6 @@
 package com.moier.mvc.service;
 
+import java.util.Calendar;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -17,6 +18,8 @@ public class SqliteService implements ISqliteService {
 	
 	private static Set<String> HOST = new HashSet<String>();
 	
+	private static int CURRENT_DAY = Calendar.getInstance().get(Calendar.DAY_OF_MONTH);
+	
 	public boolean saveQuestion(String host,String question){
 //		template.execute("insert into question values(\""+host+"\",\""+question+"\")");
 		return HOST.add(host);
@@ -25,6 +28,11 @@ public class SqliteService implements ISqliteService {
 	public boolean doSended(String host){
 //		List list = template.queryForList("select * from question where host='"+host+"'");
 //		return (list != null && list.size() > 0);
+		int nowDay = Calendar.getInstance().get(Calendar.DAY_OF_MONTH);
+		if(CURRENT_DAY != nowDay ){
+			HOST.clear();
+			CURRENT_DAY = nowDay;
+		}
 		return HOST.contains(host);
 	}
 	

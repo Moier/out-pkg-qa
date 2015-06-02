@@ -18,7 +18,7 @@ public class QuestionService implements IQuestionService {
 		
 		boolean doSended = sqlite.doSended(host);
 		if(doSended){
-			throw new NullPointerException("不允许重复发送");
+			throw new NullPointerException("温馨提示每天只能提交一次，欢迎明天再来！");
 		}
 		sqlite.saveQuestion(host, msg);
 		mailService.send(null, "问卷调查", msg);

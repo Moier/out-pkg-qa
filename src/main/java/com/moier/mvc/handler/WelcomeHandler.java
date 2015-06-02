@@ -40,29 +40,30 @@ public class WelcomeHandler {
 				isNeedSend = true;
 			}
 			if(!StringUtils.isEmpty(t3)){
-				sb.append("3.请您上网查询国务院【2015】9号文件，提出您需要的政策扶持申请？").append("\r\n").append("回答：").append(t3).append("\r\n");
+				sb.append("3.您需要国际港务区管委会出台哪些扶持优惠政策？").append("\r\n").append("回答：").append(t3).append("\r\n");
 				isNeedSend = true;
 			}
 			if(!StringUtils.isEmpty(t4)){
-				sb.append("4.您对空间基础设施建设有哪些要求？").append("\r\n").append("回答：").append(t4).append("\r\n");
+				sb.append("4.请您上网查询国务院【2015】9号文件，提出您需要的政策扶持申请？").append("\r\n").append("回答：").append(t4).append("\r\n");
 				isNeedSend = true;
 			}
 			if(!StringUtils.isEmpty(t5)){
-				sb.append("5.您希望店铺的最佳面积是多少？").append("\r\n").append("回答：").append(t5).append("\r\n");
+				sb.append("5.您对空间基础设施建设有哪些要求？").append("\r\n").append("回答：").append(t5).append("\r\n");
 				isNeedSend = true;
 			}
 			if(!StringUtils.isEmpty(t6)){
-				sb.append("6.您现在开网店，开微店了吗？您经营的商品是什么？年营业额最大是多少？").append("\r\n").append("回答：").append(t6).append("\r\n");
+				sb.append("6.您希望店铺的最佳面积是多少？").append("\r\n").append("回答：").append(t6).append("\r\n");
 				isNeedSend = true;
 			}
 			if(!StringUtils.isEmpty(t7)){
-				sb.append("7.您还有什么意见？").append("\r\n").append("回答：").append(t7).append("\r\n");
+				sb.append("7.您现在开网店，开微店了吗？您经营的商品是什么？年营业额最大是多少？").append("\r\n").append("回答：").append(t7).append("\r\n");
 				isNeedSend = true;
 			}
 			if(!StringUtils.isEmpty(t8)){
 				sb.append("8.您还有什么意见？").append("\r\n").append("回答：").append(t8).append("\r\n");
 				isNeedSend = true;
 			}
+			
 			if(isNeedSend){
 				this.questionService.sendEmail(sb.toString(),host);
 			}else{
