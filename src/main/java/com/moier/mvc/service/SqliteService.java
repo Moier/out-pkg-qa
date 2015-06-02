@@ -5,6 +5,8 @@ import java.util.Set;
 
 import org.springframework.stereotype.Component;
 
+import com.moier.mvc.service.ISqliteService;
+
 @Component
 public class SqliteService implements ISqliteService {
 

@@ -25,7 +25,7 @@ public class WelcomeHandler {
 	
 	@RequestMapping("question")
 	@ResponseBody
-	public Map<String,Object> sayHello(String t1,String t2,String t3,String t4,String t5,String t6,String t7,HttpServletRequest request){
+	public Map<String,Object> sayHello(String t1,String t2,String t3,String t4,String t5,String t6,String t7,String t8,HttpServletRequest request){
 		Map<String, Object> m = new HashMap<String,Object>();
 		try {
 			String host = request.getRemoteHost();
@@ -44,19 +44,23 @@ public class WelcomeHandler {
 				isNeedSend = true;
 			}
 			if(!StringUtils.isEmpty(t4)){
-				sb.append("1.您对空间基础设施建设有哪些要求？").append("\r\n").append("回答：").append(t4).append("\r\n");
+				sb.append("4.您对空间基础设施建设有哪些要求？").append("\r\n").append("回答：").append(t4).append("\r\n");
 				isNeedSend = true;
 			}
 			if(!StringUtils.isEmpty(t5)){
-				sb.append("2.您希望店铺的最佳面积是多少？").append("\r\n").append("回答：").append(t5).append("\r\n");
+				sb.append("5.您希望店铺的最佳面积是多少？").append("\r\n").append("回答：").append(t5).append("\r\n");
 				isNeedSend = true;
 			}
-			if(!StringUtils.isEmpty(t1)){
-				sb.append("3.您现在开网店，开微店了吗？您经营的商品是什么？年营业额最大是多少？").append("\r\n").append("回答：").append(t6).append("\r\n");
+			if(!StringUtils.isEmpty(t6)){
+				sb.append("6.您现在开网店，开微店了吗？您经营的商品是什么？年营业额最大是多少？").append("\r\n").append("回答：").append(t6).append("\r\n");
 				isNeedSend = true;
 			}
-			if(!StringUtils.isEmpty(t1)){
-				sb.append("4.您还有什么意见？").append("\r\n").append("回答：").append(t7).append("\r\n");
+			if(!StringUtils.isEmpty(t7)){
+				sb.append("7.您还有什么意见？").append("\r\n").append("回答：").append(t7).append("\r\n");
+				isNeedSend = true;
+			}
+			if(!StringUtils.isEmpty(t8)){
+				sb.append("8.您还有什么意见？").append("\r\n").append("回答：").append(t8).append("\r\n");
 				isNeedSend = true;
 			}
 			if(isNeedSend){
