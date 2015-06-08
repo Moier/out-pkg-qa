@@ -17,13 +17,21 @@
 }
 .header .wrapper .logo {
 	color: #fff;
-	font-size: 22px;
+	font-size: 16px;
 	font-family: 'microsoft yahei';
 	font-weight: bold;
+	float: left;
 }
 .header .wrapper .logo img{
 	width: 45px; height: 45px;
 	margin: 0 10px 0 0 ;
+}
+.header .nav-right {
+	float: right;
+}
+.header .nav-right a {
+	color: #BBBBBB;
+	font-family: 'microsoft yahei';
 }
 
 .content {
@@ -200,6 +208,9 @@ ul, li {
 	background-color: #fff;
 	max-width: 98%;
 	min-width: 98%;
+	height: 100px;
+	min-height: 100px;
+	max-height: 100px;
 }
 
 .question .sure {
@@ -229,6 +240,165 @@ ul, li {
 	font-weight: bold;	
 	padding-left: 280px;
 }
+
+.pro-1 {
+	background-color: #99CC99;
+	height: 500px;
+}
+
+.pro-1 .wrapper{
+	padding-top: 50px;
+}
+
+.pro-1 .title{
+	width: 500px;
+}
+
+.pro-1 .img-pro-1{
+	width: 438px;
+	height: 311px;
+}
+
+.address {
+	background-color: #CCCC99;
+	height: 400px;
+}
+.address .left {
+	float: left;
+}
+.address .right {
+	float: right;
+}
+.address .wrapper {
+	padding-top: 40px;
+}
+.address .title {
+	padding-top: 35px;
+	width: 600px;
+	float: left;
+}
+.title p.line1 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'microsoft yahei';
+}
+
+.title p.line2 {
+	padding-top: 30px;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'microsoft yahei';
+	line-height: 34px;
+}
+
+.address .img-address {
+	float: right;
+	background: url(img/address.png) no-repeat 0 0;
+	width: 395px;
+	height: 320px;
+}
+
+.traffic {
+	background-color: #009933;
+	height: 440px;
+	padding-top: 50px;
+}
+
+.traffic .back-img {
+	background: url(img/traffic.png) no-repeat 0 0;
+	width: 450px;
+	height: 337px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+.intro {
+	color: #fff;
+	width: 550px;
+}
+
+.intro p.title {
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'microsoft yahei';
+	padding-top: 20px;	
+}
+.intro p.text {
+	padding-top: 30px;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'microsoft yahei';
+	line-height: 34px;
+}
+
+.near {
+	background-color: #99CC99;
+	height: 500px;
+	padding-top: 40px;	
+}
+.near .back-img {
+	background: url(img/near.png) no-repeat 0 0;
+	width: 427px;
+	height: 415px;
+}
+
+.area {
+	background-color: #66CCCC;
+	height: 500px;
+	padding-top: 50px;
+}
+.area .back-img {
+	background: url(img/area.png) no-repeat 0 0;
+	width: 427px;
+	height: 415px;
+}
+
+.plan {
+	background-color: #ABCDEF;
+	height: 500px;
+	padding-top: 50px;
+}
+.plan .back-img {
+	background: url(img/plan.png) no-repeat 0 0;
+	width: 368px;
+	height: 409px;
+}
+
+.guowu {
+	background-color: #FF6600;
+	height: 300px;
+	padding-top: 50px;	
+}
+
+.guowu p.title{
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'microsoft yahei';
+	padding-top: 20px;			
+}
+
+.guowu p.text{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'microsoft yahei';
+	padding-top: 20px;			
+}
+
+.guowu a{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'microsoft yahei';
+	padding-top: 20px;			
+}
+
 
 .footer {
 	background-color: #42484d;

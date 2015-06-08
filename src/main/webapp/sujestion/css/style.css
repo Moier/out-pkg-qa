@@ -1,0 +1,24 @@
+p.title {
+	font-family: 'microsoft yahei';
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+p.subtitle {
+	font-family: 'microsoft yahei';
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+}
+p.text {	
+	font-family: 'microsoft yahei';
+	width: 100%;
+	font-size: 14px;
+	text-align: left;
+	line-height: 32px;
+}
+
+p.align-right {
+	text-align: right;
+}

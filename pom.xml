@@ -86,7 +86,7 @@
   <build>
     <finalName>spr-mvc</finalName>
     <plugins>
-    	<plugin>
+    	<!-- <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
 			<version>3.1</version>
@@ -94,7 +94,7 @@
 				<source>1.6</source>
 				<target>1.6</target>
 			</configuration>
-		</plugin>
+		</plugin> -->
 		
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -110,7 +110,7 @@
 	        	<artifactId>maven-war-plugin</artifactId>
 	        	<version>2.4</version>
 	        	<configuration>
-	        		<webappDirectory>D:\tomcat_zjs\apache-tomcat-6.0.35\webapps\out-pkg-qa</webappDirectory>
+	        		<webappDirectory>D:\apache_solr\zongbao\tomcat\webapps\cwl</webappDirectory>
 	        	</configuration>
       		</plugin>
 		

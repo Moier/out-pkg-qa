@@ -14,7 +14,7 @@ $(function(){
 		var txt_question_7 = $("#txt_question_7").val();
 		var txt_question_8 = $("#txt_question_8").val();
 		$.ajax({ 
-			url: "/out-pkg-qa/moier/welcome/question", 
+			url: "/cwl/moier/welcome/question", 
 			data:{
 				t1:txt_question_1,
 				t2:txt_question_2,
